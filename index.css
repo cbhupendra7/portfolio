@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: honeydew;
+}
+/*  what does flex mean and doing both carries the block of elements on the right side of page */
+/* The CSS justify-content property defines how the browser distributes space between and around content
+ items along the main-axis of a flex container, and the inline axis of a grid container. */
+
+
+
+
+ 
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto; 
+    padding: 20px 0;
+    align-items: center;
+    Justify-content: space-between;  
+
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin: 15px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: blue;
+
+}
+
+.details{
+   
+    margin-top: 20%; 
+    margin-left: 1%;
+    
+}
+
+ .details h1{
+    font-size: 50px;
+    color:black;
+    margin-bottom: 20px;
+
+} 
+
+.details a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+  
+
+}
+
+.details a:hover{
+color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* shifts unordered list on right
+
+ul {
+    float: right;
+    margin-top: 25px;
+    
+} 
+
+/* helps to display the listed item in block 
+
+ul li{
+    display: inline-block;
+} */
